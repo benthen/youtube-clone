@@ -1,0 +1,94 @@
+.header{
+    position:fixed;
+    display:flex; 
+    flex-direction: row;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 300;
+}
+.left{
+    width:400px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu-icon{
+    margin-left: 13px;
+}
+.menu{
+    width:30px;
+}
+.youtube{
+    width: 150px;
+    margin-left: 10px;
+}
+.middle{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+    justify-content:center;
+}
+.input::placeholder{
+    color:grey;
+    font-size:15px;
+}
+.input-box{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+}
+.input{
+    max-width: 700px;
+    height: 25px;
+    width:100%;
+    padding:10px;
+    border: rgb(174, 174, 174);
+    border-radius: 1px 0px 0px 1px;
+    box-shadow: inset 0 0 1px rgb(0, 0, 0);
+}
+.search-box{
+    width:60px;
+    height:45px;
+    border-radius:0px 1px 1px 0px;
+    border:rgb(174, 174, 174);
+    box-shadow: inset 0 0 1px rgb(0, 0, 0);
+}
+.search{
+    width: 40px;
+    margin: 3px 0 0 8px;
+}
+.mic{
+    width:40px;
+    height: 40px;
+    margin-top: 3px;
+    margin-left:7px;
+}
+.right{
+    width:400px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+.create{
+    width: 45px;
+    margin-right: 25px;
+}
+.noti{
+    width:45px;
+    margin-right: 25px;
+}
+.ben{
+    width:45px;
+    height:45px;
+    margin-right: 25px;
+    border-radius:25px;
+}
